@@ -1,0 +1,62 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+
+body{
+  background-color: lightgrey;
+  margin: 0px 5px;
+}
+.footer{
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+  padding: 20px;
+}
+.copyright{
+  background-color: black;
+  color: white;
+  padding: 10px;
+  font-size: 14px;
+  text-align: center;
+}
+.row #pages, #top-catagories, #find-us, #news{
+  list-style: none;
+}
+.email-field{
+  border: 1px solid red;
+}
+.social{
+  padding: 0;
+  margin: 0;
+}
+.social #tw, #fb, #gp, #em, #in, #lin{
+  background-color: white;
+  border-radius: 50%;
+  font-weight: 900;
+  font-size: 20px;
+  margin: 2px;
+  padding: 10px;
+}
+.social #fb{
+  color: blue;
+}
+.social #gp,#lin{
+  color: red;
+}
+.social #in{
+  color: tomato;
+}
+.social #em{
+  color: red;
+}
+.social #in:hover, #fb:hover, #tw:hover, #gp:hover, #em:hover, #lin:hover{
+  background-color: black;
+  color: white;
+}
+.subscribe{
+  padding: 9px;
+  font-weight: bold;
+  color: white;
+  background: red;
+  border: none;
+  border-radius: 5px;
+}
+
+

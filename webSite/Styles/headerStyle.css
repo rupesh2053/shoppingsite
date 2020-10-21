@@ -1,0 +1,146 @@
+
+  .tabs li a:hover{
+    transform: scale(1.0);
+  }
+  .content-navbar li a:hover{
+    border-bottom: 2px solid #4e342e;
+  }
+  .fa-home{
+    font-size: 30px;
+  }
+  .header{
+    background: #126D7A;
+    height: 60px;
+  }
+  .header ul li{
+    display: inline-block;
+    padding: 10px;
+    color: white;
+  }
+  .header ul li a{
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+  }
+  .header ul{
+    padding: 0;
+    margin: 0;
+  }
+  #welcome{
+    background-color: tomato;
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+    font-size: 15px;
+  }
+  .right-toggle{
+    float: right;
+  }
+  .cart-style{
+    padding: 0px 7px;
+    font-size: 18px;
+    border-radius: 50%;
+    margin-top: -8px;
+    font-weight: bold;
+  }
+  .fa-search{
+    margin-left: 7px;
+  }
+  /*mobile navigation style*/
+  .sidenav{
+        background: #042331;
+        transition: all .5s ease;
+      }
+      .sidenav header{
+        font-size: 26px;
+        color: white;
+        line-height: 70px;
+        background: #063146;
+        user-select: none;
+        padding-left: 10px;
+      }
+      #mobile a{
+        display: block;
+        height: 100%;
+        width: 100%;
+        line-height: 65px;
+        font-size: 24px;
+        color: white;
+        padding-left: 40px;
+        box-sizing: border-box;
+        border-bottom: 1px solid black;
+        border-top: 1px solid rgba(255,255,255,.1);
+        transition: .4s;
+      }
+      #mobile a i{
+        color: white;
+        font-size:30px;
+        margin-top: 10px;
+      }
+      ul li:hover a{
+        transform: scale(1.1);
+      }
+      .sidenav a i{
+        margin-right: 16px;
+      }/*mobile navigation style ends*/
+
+  /*search box media query for responsive*/
+  @media (max-width: 1024px){
+  .cart-main{
+    margin-top: 7px;
+   }  
+  }
+  @media (max-width: 786px){
+  .autocomplete{
+    width: 440px;
+  }
+  .autocomplete-items{
+    width: 444px;
+  }
+ }
+  @media (max-width: 640px){
+  .autocomplete{
+    width: 330px;
+    margin-left: -15px;
+  }
+  .autocomplete-items{
+    width: 334px;
+  }
+ }
+ @media (max-width: 480px){
+  .autocomplete{
+    width: 420px;
+    margin-left: -30px;
+  }
+  .autocomplete-items{
+    width: 424px;
+  }
+ }
+ @media (max-width: 420px){
+  .autocomplete{
+    width: 350px;
+  }
+  .autocomplete-items{
+    width: 354px;
+  }
+ }
+ @media (max-width: 375px){
+  .autocomplete{
+    width: 300px;
+    margin-left: -30px;
+  }
+  .autocomplete-items{
+    width: 304px;
+  }
+ }
+ @media (max-width: 320px){
+  .autocomplete{
+    width: 260px;
+    margin-left: -30px;
+  }
+  .autocomplete-items{
+    width: 264px;
+  }
+  #welcome{
+    font-size: 12px;
+  }
+ }
